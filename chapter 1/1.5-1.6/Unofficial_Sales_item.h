@@ -5,7 +5,7 @@ class Sales_item
 private:
     struct book
     {
-        std::string bookID;
+        std::string isbn;
         int quantity;
         double price;
         double sales;
@@ -20,6 +20,7 @@ public:
     */
     friend std::istream& operator>>(std::istream& is, Sales_item& p);
     friend std::ostream& operator<<(std::ostream& os, const Sales_item& p);
+    std::string isbn();
     
     Sales_item operator+(const Sales_item& b) const;
     // 构造函数，创建初始化变量
