@@ -6,4 +6,5 @@ int main() {
 
     *p = 0; // 由符号*得到指针p所指的对象，即可经由p为变量ival幅值
     std::cout << *p;    //输出0
+    return 0;
 }

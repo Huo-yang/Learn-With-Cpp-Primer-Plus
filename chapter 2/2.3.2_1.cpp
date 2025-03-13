@@ -9,4 +9,5 @@ int main() {
     double dval;
     double *pd = &dval; // 正确：初始值是double型对象的地址
     double *pd2 = pd;   // 正确：初始值是指向double对象的指针
+    return 0;
 }

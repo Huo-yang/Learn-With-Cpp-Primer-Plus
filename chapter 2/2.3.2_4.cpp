@@ -11,4 +11,5 @@ int main() {
     int ival = 42;
     pi = &ival; // pi的值被改变，现在pi指向了ival
     *pi = 0;    // ival的值被改变，指针pi并没有改变
+    return 0;
 }
